@@ -1,0 +1,30 @@
+import java.util.*;
+ 
+class Solution{
+  public int solution(int[] priorities, int location) (
+   //1.Queue를 만들기 
+  list<PrintJob) printer = new ArrayList<Print(Job>();
+  int turn = 0;
+  while(!printer.isEmpty()){
+       PrintJob job = printer.remove(0);
+       if(printer.stream().eanyMatch(predicate))
+  }
+  return turn;
+}
+
+class PrintJob{
+  int priority;
+  int location;
+
+  public PrintJob(int location, int priority){
+     this.location = location;
+     this.priority = priority;
+   }
+ }
+
+ public static void main(String[] args) {
+  solution sol = new Solution();
+  int[] priorities = (2,1,3,2);
+  System.out.print(sol.solution(priorities, 2));
+ }
+}
